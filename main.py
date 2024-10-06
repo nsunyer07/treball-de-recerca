@@ -47,7 +47,7 @@ st.write("""Aquests sliders serveixen per cambiar
          la temperatura i la humitat minima del sistema.
 """)
 st.slider("Humitat del sól", min_value=0, max_value=100, value= 40, step=None, format=None, key="humi", help=None, on_change=canvihumi, args=None, kwargs=None, disabled=False, label_visibility="visible")
-st.slider("Temperatura", min_value=20, max_value=40, value= 25, step=None, format=None, key="temp", help=None, on_change=canvitemp, args=None, kwargs=None, disabled=False, label_visibility="visible")
+st.slider("Temperatura", min_value=0, max_value=40, value= 14, step=None, format=None, key="temp", help=None, on_change=canvitemp, args=None, kwargs=None, disabled=False, label_visibility="visible")
 st.write("""Aquestes son les dades de temperatura i humitat 
          recollides de més nova a més vella anant d'esquerra a dreta.
          """)
